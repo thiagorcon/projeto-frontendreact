@@ -1,41 +1,37 @@
-//import logo from './logo.svg';
-import './index.js'
-import './App.css';
+import capacete from "./img/capacete.jpg";
+import "./index.js";
+import "./App.css";
+import Header from "./Componentes/Header/Header.js";
+import Filtros from "./Componentes/ListaProdutos/Filtros.js";
+import Produtos from "./Componentes/ListaProdutos/Produtos.js";
 
 function App() {
+
+  const produto1 = {
+    produto : 'capacete de astronauta', 
+    imagem : capacete,
+  }
+
   return (
     <>
-    <main>
-      <div className='div1'>
+      <main>
+        <header>
+          <Header />
+        </header>
 
-    </div>
-      <div className='div2'>
-      
-    </div >
-    <div className='div3'>
-      
-    </div >
-
-    </main>
+        <div className="div1">
+          <Filtros></Filtros>
+        </div>
+        <div className="div2">
+          <Produtos  produto1={produto1} >
+          </Produtos>
+        </div>
+        <div className="div3"></div>
+      </main>
+      <footer></footer>
     </>
 
-
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+    
   );
 }
 

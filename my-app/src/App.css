@@ -37,34 +37,33 @@
   }
 } */
 
-body {
+
+
+main {
   background-color: blue;
   height: 100vh;
   width: 100vw;
-
-}
-
-main {
   display: flex;
   /* flex-direction: column;  */
   flex-wrap: wrap; 
   gap: 10px;
   /* grid-template-columns: 1fr 3fr 1fr;   */
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .div1 {
   background-color: green;
   width: 30vw;
-  height: 90vh;
+  height: 87vh;
   order: 1;
   /* flex-direction: column;  */
+  text-align: start;
 }
 
 .div2 {
   background-color: red;
   width: 30vw;
-  height: 90vh; 
+  height: 87vh; 
   order: 2;
 
 }
@@ -72,6 +71,19 @@ main {
 .div3 {
   background-color: yellow;
   width: 30vw;
-  height: 90vh;
+  height: 87vh;
   order: 3;
+}
+.foto1{
+  width: 100px;
+  height: 87px;
+  border: 1px solid black;
+}
+
+footer{
+  width: 100vw;
+  height: 3vh;
+  background-color: white;
+  text-align: center;
+  align-content: center;
 }
