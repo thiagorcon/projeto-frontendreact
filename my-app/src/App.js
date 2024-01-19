@@ -11,7 +11,7 @@ function App() {
     produto : 'capacete de astronauta', 
     imagem : capacete,
   }
-
+  //teste gihub desktop
   return (
     <>
       <main>
