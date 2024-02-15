@@ -1,60 +1,28 @@
-/* .App {
+h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+  text-align: center;
+  align-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-
 
 main {
-  background-color: blue;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
+  background-color: blue;  
+  display: flex;  
   /* flex-direction: column;  */
   flex-wrap: wrap; 
-  gap: 10px;
+  gap: 5px;
   /* grid-template-columns: 1fr 3fr 1fr;   */
   justify-content: space-around;
 }
 
 .div1 {
   background-color: green;
-  width: 30vw;
-  height: 87vh;
+  width: 32vw;
+  height: 80vh;
   order: 1;
   /* flex-direction: column;  */
   text-align: start;
@@ -62,28 +30,22 @@ main {
 
 .div2 {
   background-color: red;
-  width: 30vw;
+  width: 32vw;
   height: 87vh; 
   order: 2;
-
 }
 
 .div3 {
   background-color: yellow;
-  width: 30vw;
+  width: 32vw;
   height: 87vh;
   order: 3;
-}
-.foto1{
-  width: 100px;
-  height: 87px;
-  border: 1px solid black;
 }
 
 footer{
   width: 100vw;
   height: 3vh;
-  background-color: white;
+  background-color: lightpink;
   text-align: center;
   align-content: center;
 }
